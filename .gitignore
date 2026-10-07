@@ -1,0 +1,29 @@
+# Dependencies
+node_modules/
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+secrets/
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Logs
+*.log
+logs/
+
+# Tests / coverage
+coverage/
+.nyc_output/
+.integration-runtime/
+tmp/
+temp/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
